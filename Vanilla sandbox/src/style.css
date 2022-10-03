@@ -1,0 +1,28 @@
+h1 {
+  font-size: 80px;
+}
+
+.today-temp {
+  font-size: 70px;
+  font-weight: bolder;
+  margin-bottom: 0;
+}
+
+.temp-range {
+  font-family: "PT Mono", monospace;
+}
+
+i {
+  font-size: 40px;
+  padding-top: 10px;
+}
+
+form {
+  display: fixed;
+  right: 0;
+}
+
+.weather {
+  font-size: 40px;
+  color: #3944bc;
+}
