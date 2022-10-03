@@ -45,40 +45,27 @@
         </div>
       </div>
       <div class="row" id="current-weather">
+        <h1 id="current-city">Auckland</h1>
+        <ul>
+          <li>Friday 05:00</li>
+          <li id="weather">Clear</li>
+        </ul>
         <div class="col-8">
-          <h1 id="current-city">Auckland</h1>
-          <p id="weather" class="weather">
-            <i class="fa-solid fa-cloud"></i> Cloudy
-          </p>
+          <img
+            src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
+            alt="Clear"
+          />
+          <p id="today-temp">10°C | °F</p>
         </div>
         <div class="col-4">
-          <p class="today-temp" id="today-temp">10°</p>
-          <p class="temp-range" id="temp-range">9° / 16°</p>
-        </div>
-        <hr />
-      </div>
-      <div class="row" id="future-weather">
-        <div class="col-2 future-weather">
-          <p class="day">Thu<br /><i class="fa-solid fa-sun"></i></p>
-          <p class="temp">15° / 20°</p>
-        </div>
-        <div class="col-2 future-weather">
-          <p class="day">Fri<br /><i class="fa-solid fa-cloud-sun"></i></p>
-          <p class="temp">15° / 20°</p>
-        </div>
-        <div class="col-2 future-weather">
-          <p class="day">Sat<br /><i class="fa-solid fa-umbrella"></i></p>
-          <p class="temp">15° / 20°</p>
-        </div>
-        <div class="col-2 future-weather">
-          <p class="day">Sun<br /><i class="fa-solid fa-wind"></i></p>
-          <p class="temp">15° / 20°</p>
-        </div>
-        <div class="col-2 future-weather">
-          <p class="day">Mon<br /><i class="fa-solid fa-cloud-bolt"></i></p>
-          <p class="temp">15° / 20°</p>
+          <ul>
+            <li>Precipitation: 0%</li>
+            <li>Humidity: 73%</li>
+            <li>Wind: 2 km/h</li>
+          </ul>
         </div>
       </div>
+      <small>Open-source code by Teri Ko</small>
     </div>
     <script src="src/index.js"></script>
   </body>
