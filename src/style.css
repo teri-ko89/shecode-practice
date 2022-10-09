@@ -1,28 +1,58 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+.weather-app {
+  border: 1px solid #dadde1;
+  padding: 20px;
+}
+
 h1 {
-  font-size: 80px;
+  color: #878;
+  font-size: 24px;
+  line-height: 28px;
 }
 
-.today-temp {
-  font-size: 70px;
-  font-weight: bolder;
-  margin-bottom: 0;
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: #878;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: capitalize;
 }
 
-.temp-range {
-  font-family: "PT Mono", monospace;
+#wind {
+  text-transform: lowercase;
 }
 
-i {
-  font-size: 40px;
-  padding-top: 10px;
+img {
+  width: 20%;
+}
+
+#current-weather {
+  margin-top: 20px;
+}
+
+#temperature {
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.units {
+  font-size: 16px;
+  position: relative;
+  top: -34px;
 }
 
 form {
   display: fixed;
   right: 0;
-}
-
-.weather {
-  font-size: 40px;
-  color: #3944bc;
 }
