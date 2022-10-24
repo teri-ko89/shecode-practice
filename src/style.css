@@ -32,7 +32,7 @@ li {
   text-transform: lowercase;
 }
 
-img {
+#icon {
   width: 20%;
 }
 
@@ -44,6 +44,10 @@ img {
   font-size: 64px;
   line-height: 1;
   font-weight: 400;
+}
+
+.weather-forecast-temperature-min {
+  color: #878;
 }
 
 .units {
